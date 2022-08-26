@@ -1,5 +1,9 @@
+//importa todos los archivos scss
+@import './Styles/colors';
+
 .App {
   text-align: center;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -14,18 +18,25 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+ // background-image: url(Recursos/dolcedelizia.png);
+  min-height: 10vh;
+  
+  
+
   font-size: calc(10px + 2vmin);
-  color: white;
+ 
 }
 
 .App-link {
-  color: #61dafb;
+  color: $linkColor;
+}
+
+
+.App-main{
+
+  color: black;
+  min-height: 500px;
+
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +47,4 @@
     transform: rotate(360deg);
   }
 }
+
